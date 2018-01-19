@@ -2,7 +2,7 @@ module ex_module(
     input   wire            sclk,
     input   wire            rst_n,
     input   wire    [7:0]   d,
-    output  reg    [7:0]   q
+    output  reg     [7:0]   q
 );
 //Asynchronous D flip-flop
 always  @(posedge sclk or negedge rst_n)
